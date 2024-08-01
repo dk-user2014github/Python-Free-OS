@@ -1,22 +1,22 @@
 import os
 
 print("Starting OS")
-a = input(">>>")
+a = input(">>")
 
 def unknown_command():
     global a
     print("Unknown command: " + a)
-    a = input(">>>")
+    a = input(">>")
 
 def help():
     global a
     print("help, info, calc, text, game,")
-    a = input(">>>")
+    a = input(">>")
 
 def info():
     global a
     print("Python OS, version 1.1, by Lfolix")
-    a = input(">>>")
+    a = input(">>")
 
 def calc():
     global a
@@ -26,7 +26,7 @@ def calc():
 
     if c3 == "+":
         print(c1 + c2)
-        a = input(">>>")
+        a = input(">>")
 
     if c3 == "-":
         print(c1 - c2)
@@ -34,16 +34,16 @@ def calc():
 
     if c3 == "*":
         print(c1 * c2)
-        a = input(">>>")
+        a = input(">>")
 
     if c3 == "/":
         print(c1 // c2)
-        a = input(">>>")
+        a = input(">>")
 
 def text():
     global a
     txt = input("Text >>>")
-    a = input(">>>")
+    a = input(">>")
 
 def game():
     global a
@@ -52,15 +52,15 @@ def game():
 
     if game2 > game:
         print("This is larger!")
-        a = input(">>>")
+        a = input(">>")
 
     if game2 < game:
         print("This is less!")
-        a = input(">>>")
+        a = input(">>")
 
     if game2 == game:
         print("This is right!")
-        a = input(">>>")
+        a = input(">>")
 
 while True:
     if a == "help":
